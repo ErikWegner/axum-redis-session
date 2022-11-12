@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-redis-session = "0.2.2"
 axum = "0.5.17"
-axum_database_sessions = { version = "4.1.0", features = ["redis-db"] }
-redis = "0.21"
-tokio = "1.21.2"
+axum-sessions = "0.3.1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 tracing = "0.1.37"
 
 [dev-dependencies]
