@@ -3,12 +3,14 @@ name = "axum-session"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-path = "./src/lib/lib.rs"
-
 [dependencies]
 axum = "0.5.17"
 axum_database_sessions = { version = "4.1.0", features = ["redis-db"] }
 redis = "0.21"
 tokio = "1.21.2"
 tracing = "0.1.37"
+
+[dev-dependencies]
+http = "0.2.8"
+itertools = "0.10.5"
+tower = { version = "0.4", features = ["util"] }

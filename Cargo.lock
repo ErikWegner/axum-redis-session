@@ -136,8 +136,11 @@ version = "0.1.0"
 dependencies = [
  "axum",
  "axum_database_sessions",
+ "http",
+ "itertools",
  "redis",
  "tokio",
+ "tower",
  "tracing",
 ]
 
