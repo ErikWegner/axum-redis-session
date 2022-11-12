@@ -1,5 +1,5 @@
 {
-	"name": "Rust and PostgreSQL",
+	"name": "axum-redis-session",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
